@@ -93,7 +93,7 @@ function writeToFile(fileName, data) {
 }
 
 function init() {
-  inquirer.prompt(questions).then(function (userInput) {
+  inquirer.prompt(questions).then((userInput) => {
     console.log(userInput);
     writeToFile("README.md", generateMarkdown(userInput));
   });
