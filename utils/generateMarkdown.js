@@ -14,6 +14,41 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  
+
+## Table Of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Description
+${data.description}
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## License
+![badge](https://img.shields.io/badge/license-${data.license}-brightgreen) </br>
+This application is covered by the ${data.license} license. 
+
+## Questions 
+Find me on GitHub: ${data.github} </br>
+Link to my Github: https://github.com/${data.github} </br>
+Email me with any questions : ${data.email}
+
 `;
 }
 

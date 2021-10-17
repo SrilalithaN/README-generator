@@ -69,6 +69,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "questions",
+    message: "Please reach us here if you have any additional questions",
+  },
+  {
+    type: "input",
     name: "github",
     messsage: "Please enter yout Github username",
   },
