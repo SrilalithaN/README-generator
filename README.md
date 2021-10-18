@@ -1,6 +1,6 @@
-# demo
+# README-Generator
 
-  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
 
 ## Table Of Contents
@@ -12,26 +12,26 @@
 - [Questions](#questions)
 
 ## Description
-demo
+This project creates a README automatcally with the use of npm inquirer, file system and node.js
 
 ## Installation
-demo
+node.js , npm inquirer
 
 ## Usage
-nicely
+enter node index.js in the command line and then answer the prompts to generate a README file
 
 ## Contributing
-none
+Please create a pull request and feel free to contribute.
 
 ## Tests
-none
+currently no tests required, please add any tests if appropriate
 
 ## License
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) </br>
-This application is covered by the ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) license. 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) </br>
+This application is covered by the ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) license. 
 
 ## Questions 
-Find me on GitHub: sriN </br>
-Link to my Github: https://github.com/sriN </br>
-Email me with any questions : sri.com
+Find me on GitHub: SrilalithaN </br>
+Link to my Github: https://github.com/SrilalithaN </br>
+Email me with any questions : srilalitha.ganti@gmail.com
 
