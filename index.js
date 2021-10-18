@@ -69,7 +69,8 @@ const questions = [
   },
   {
     name: "questions",
-    message: "press enter to reach us for additional questions",
+    message:
+      "Please press enter to add github username and add email for users to reach you for additional questions",
   },
   {
     type: "input",

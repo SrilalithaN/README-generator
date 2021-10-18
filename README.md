@@ -1,9 +1,9 @@
 # README-Generator
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-  
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table Of Contents
+
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,26 +12,36 @@
 - [Questions](#questions)
 
 ## Description
-This project creates a README automatcally with the use of npm inquirer, file system and node.js
+
+An automated README.md generator that uses the Inquirer NPM, File System (FS), and Node.js to automatically create README markdown files.
 
 ## Installation
-node.js , npm inquirer
+
+The README generator requires installation of Node.js. Users must also have access to a IDE such as Visual Studio Code with access to the terminal or access to GitBash/Command Line Interface to run Node. Inquirer npm must also be installed.
 
 ## Usage
-enter node index.js in the command line and then answer the prompts to generate a README file
+
+To use the README generator run: "Node index.js" in the terminal, and answer the prompts. After the prompts are answered, open the new README.md created in the current working directory, and preview the README (hit CTRL + Shift + V to preview in Visual Studio Code)
 
 ## Contributing
-Please create a pull request and feel free to contribute.
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Tests
-currently no tests required, please add any tests if appropriate
+
+Please make sure to update tests as appropriate.Currrently there are no tests.
 
 ## License
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) </br>
-This application is covered by the ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) license. 
 
-## Questions 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) </br>
+This application is covered by the ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) license.
+
+## Questions
+
 Find me on GitHub: SrilalithaN </br>
 Link to my Github: https://github.com/SrilalithaN </br>
 Email me with any questions : srilalitha.ganti@gmail.com
 
+## Links
+
+Attached is the link to the video of the demo of README-Generator [Link to video](https://drive.google.com/file/d/1wZLr-5UPZrACJVxgs6ZjrOxqRQwDWxhx/view)
