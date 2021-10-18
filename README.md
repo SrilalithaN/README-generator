@@ -1,6 +1,6 @@
 # demo
 
-  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
   
 
 ## Table Of Contents
@@ -18,20 +18,20 @@ demo
 demo
 
 ## Usage
-demo
+nicely
 
 ## Contributing
-demo
+none
 
 ## Tests
-demo
+none
 
 ## License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen) </br>
-This application is covered by the Apache license. 
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) </br>
+This application is covered by the ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) license. 
 
 ## Questions 
-Find me on GitHub: demo </br>
-Link to my Github: https://github.com/demo </br>
-Email me with any questions : de,o
+Find me on GitHub: sriN </br>
+Link to my Github: https://github.com/sriN </br>
+Email me with any questions : sri.com
 

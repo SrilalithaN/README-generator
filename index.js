@@ -65,12 +65,11 @@ const questions = [
     type: "list",
     name: "license",
     message: "Choose the appropriate license for this project",
-    choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
+    choices: ["Apache 2.0", "GPL 3.0", "ISC", "MIT", "Mozilla", "None"],
   },
   {
-    type: "input",
     name: "questions",
-    message: "Please reach us here if you have any additional questions",
+    message: "press enter to reach us for additional questions",
   },
   {
     type: "input",
