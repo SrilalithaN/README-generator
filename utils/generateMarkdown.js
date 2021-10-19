@@ -21,9 +21,6 @@ function renderLicenseBadge(license) {
       badge =
         "![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
       break;
-    case "None":
-      badge = "";
-      break;
     default:
       badge = "";
       break;
@@ -31,19 +28,35 @@ function renderLicenseBadge(license) {
   return badge;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseSection(license) {
+  let licenseLink;
+  switch (license) {
+    case "Apache 2.0":
+      licenseLink = "https://opensource.org/licenses/Apache-2.0";
+      break;
+    case "GPL 3.0":
+      licenseLink = "https://www.gnu.org/licenses/gpl-3.0";
+      break;
+    case "ISC":
+      licenseLink = "https://opensource.org/licenses/ISC";
+      break;
+    case "MIT":
+      licenseLink = "https://opensource.org/licenses/MIT";
+      break;
+    case "Mozilla":
+      licenseLink = "https://opensource.org/licenses/MPL-2.0";
+      break;
+    default:
+      licenseLink = "";
+      break;
+  }
+  return licenseLink;
+}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${renderLicenseBadge(data.license)}
+  [${renderLicenseBadge(data.license)}](${renderLicenseSection(data.license)})
   
 
 ## Table Of Contents
@@ -52,6 +65,7 @@ function generateMarkdown(data) {
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [License](#license)
 - [Questions](#questions)
 
 ## Description
@@ -71,7 +85,9 @@ ${data.tests}
 
 ## License
 ${renderLicenseBadge(data.license)} </br>
-This application is covered by the ${renderLicenseBadge(data.license)} license. 
+This application is covered by the  [${renderLicenseBadge(
+    data.license
+  )}](${renderLicenseSection(data.license)})license. 
 
 ## Questions 
 Find me on GitHub: ${data.github} </br>
