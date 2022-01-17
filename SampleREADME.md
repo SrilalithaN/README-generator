@@ -34,5 +34,5 @@ This application is covered by the  [![License: MIT](https://img.shields.io/badg
 ## Questions 
 Find me on GitHub: SrilalithaN </br>
 Link to my Github: https://github.com/SrilalithaN </br>
-Email me with any questions : srilalitha.ganti@gmail.com
+Email me with any questions : snookala.dev@gmail.com
 

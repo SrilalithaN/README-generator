@@ -42,4 +42,4 @@ Finally, fs.writeFile is used to generate your project's README.md file. Check o
 If you utilize this app to generate a README for your project, I'd love to see. Feel free to contact me with examples or any questions via the information below:
 
 Github: SrilaithaN <br>
-Email : srilalitha.ganti@gmail.com
+Email : snookala.dev@gmail.com
